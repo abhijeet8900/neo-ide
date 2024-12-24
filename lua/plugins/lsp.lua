@@ -184,8 +184,8 @@ return {
       cssls = {},
       tailwindcss = {},
       dockerls = {},
-      sqlls = {},
-      terraformls = {},
+      -- sqlls = {},
+      -- terraformls = {},
       jsonls = {},
       yamlls = {},
 
