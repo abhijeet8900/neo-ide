@@ -41,4 +41,8 @@ return {
       require('colorizer').setup()
     end,
   },
+  -- TSX file formatter
+  {
+    'maxmellon/vim-jsx-pretty',
+  },
 }
