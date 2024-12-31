@@ -45,4 +45,20 @@ return {
   {
     'maxmellon/vim-jsx-pretty',
   },
+  -- Bad practice helper
+  {
+    'm4xshen/hardtime.nvim',
+    dependencies = { 'MunifTanjim/nui.nvim' },
+    opts = {
+      disable_mouse = false,
+      restriction_mode = 'hint',
+      disabled_keys = {
+        ['<Up>'] = {},
+        ['<Down>'] = {},
+        ['<Left>'] = {},
+        ['<Right>'] = {},
+        ['<Space>'] = { 'n', 'x' },
+      },
+    },
+  },
 }
